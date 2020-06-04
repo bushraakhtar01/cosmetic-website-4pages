@@ -1,0 +1,373 @@
+
+ 
+  #myBtn {
+   
+    outline: none;
+    background-color: #880e4f;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50%;
+    
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+
+  }
+.logo{
+    width: 50%;
+    display: block;
+    margin: 0px auto 0px auto;
+ 
+}
+.navbar-toggler{
+    border: none !important;
+}
+.nav-item:hover{
+    color:#f06292;
+}
+.nav-item a{
+   color: #880e4f;
+}
+.nav-item a:hover{
+   color: #f06292;
+   text-decoration: none;
+}
+.navtogglebutton:hover{
+ color:#f06292;
+}
+.nav-item{
+ padding-top: 0.5%;
+ color: #880e4f;
+ font-weight: bold;
+font-size: 20px;
+margin: 0px auto 0px auto;
+
+
+}
+.navicons{
+    display: inline-block;
+    list-style-type: none;
+}
+.navicons>li{
+    display: inline-block;
+    list-style-type: none;
+    color: #f06292;
+    margin-left: 10px;
+}
+
+.navicons i:hover{
+   color: #880e4f;
+}
+
+.navbar-nav{
+    margin: 0px auto 0px auto;
+}
+.d-block{
+    height: 70vh;
+}
+.cosmeticheading{
+    text-align: center;
+    color: #880e4f;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+}
+.cosmeticheading>span{
+    color: #f06292;
+    font-weight: lighter;
+}
+.cosmetichr{
+    background-color: #eeeeee;
+    border-width: 2px;
+    width: 50%;
+}
+.card{
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 100% !important;
+    
+  
+}
+.card>img{
+    height: 40vh;
+   
+}
+.card-title{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #f06292;
+}
+.card-text{
+    color: grey;
+}
+.card a{
+    background-color: #880e4f;
+    border-color: inherit;
+}
+.card a:hover{
+    background-color: #f06292;
+    border-color: #f06292;
+}
+.card a:active{
+    background-color: #f06292 !important;
+    box-shadow: none !important;
+    border-color: inherit !important;
+}
+.card a:focus{
+    background-color: #f06292 !important;
+    box-shadow: none !important;
+    border-color: inherit !important;
+}
+.galleryheading{
+    text-align: center;
+ 
+    font-weight: lighter;
+}
+.gallerysubheading{
+    text-align: center;
+    letter-spacing: 1px;
+    color: #f06292;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: #880e4f;
+    text-transform: capitalize;
+}
+.gallerylogo{
+    width: 6%;
+   margin: 0px auto 0px auto;
+    display: block;
+}
+/* .galleryimg{
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+} */
+.cardgallery{
+    margin: 0;
+    padding: 0;
+}
+.claratext{
+    text-align: center;
+    color: grey;
+    letter-spacing: 2px;
+}
+.clarapara{
+    text-align: center;
+    opacity: 0.7;
+
+}
+ /* footer div */
+                    
+ 
+.footercolumn>ul>li{
+    display: block;
+
+    color: #880e4f;
+}
+.footerlis a{
+    color: #880e4f;
+}
+.footerlis :hover{
+    color: #f06292;
+    text-decoration: none;
+}
+.firstli{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  display: block;
+  text-align: justify;
+ 
+  color: #880e4f;
+
+}
+.footercolumn ,.smediacol{
+    padding: 2%;
+    
+
+}
+
+.smedia{
+    display: inline-block;
+    font-size: 25px;
+    padding:3% ;
+ 
+    
+}
+.footerlis{
+    padding:3% ;
+    font-size: 16px;
+
+}
+.fa-facebook-official{
+    color: #0d47a1;
+}
+.fa-twitter{
+  color: #2196f3;
+}
+.fa-youtube-play{
+color: red;
+}
+.lastdiv{
+    background-color: #f06292;
+  
+
+}
+.lastfooterpara{
+    color: black;
+   font-weight:normal;font-size:14px ;
+   text-align: center;
+    padding: 1%;
+}
+/* About  */
+.aboutclara{
+    color: #880e4f;
+    letter-spacing:1px;
+    word-spacing: 2px;
+    font-weight: 400;
+   
+    
+}
+.abouthr{
+    width: 8%;
+    border-width: 3px;
+    border-radius: 20%;
+    background-color: #f06292;
+
+    margin-top: 0;
+    margin-left: 0;
+}
+.aboutsubhr{
+    background-color: #880e4f;
+    width: 8%;
+    border-width: 2px;
+    border-radius: 20%;
+    margin-top: 0;
+    margin-left: 0;
+}
+.aboutpara{
+    color: black;
+    line-height: 1.9em;
+    opacity: 0.8;
+}
+.aboutsubheadings{
+    color: #f06292;
+    word-spacing: 2px;
+}
+ /* Contact us */
+ .form-group textarea:focus{
+    box-shadow: none; -webkit-box-shadow: none;
+    border-color: #880e4f;
+  }
+  .form-group input:focus{
+    box-shadow: none; -webkit-box-shadow: none;
+    border-color: #880e4f;
+  }
+  form button{
+      background-color: #f06292 !important;
+      border-color: inherit !important;
+      width: 50%;
+      margin: 0px auto 0px auto;
+      display: block !important;
+  }
+  form button:focus{
+      background-color: #880e4f !important;
+      box-shadow: none !important; 
+  }
+  .address h5{
+      text-transform: uppercase;
+      font-size: 16px;
+  }
+  .address p{
+      font-size: 14px;
+      word-spacing: 5px;
+      font-weight: 500;
+      padding-bottom: 20px;
+      
+  }
+ .btn-success{
+    box-shadow: none !important; 
+     border-color: inherit !important;
+     
+ }
+
+@media(max-width:992px){
+    .logo{
+        margin: 0px auto 0px auto;
+        width: 10%;
+    }
+    .nav-item{
+    
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid grey;
+        font-size: 18px;
+    }
+    .navicons{
+        float: right;
+        margin-top: 0px;
+    }
+    
+}
+@media(max-width:768px){
+    .d-block{
+        height: 50vh;
+    }
+    .abouthr , .aboutsubhr{
+        width: 15%;
+    }
+    
+}
+@media(max-width:480px){
+    .logo{
+        width: 20%;
+    }
+    .nav-item{
+        font-size: 15px;
+    }
+    .navicons i{
+        font-size: 1.3rem;
+       margin-left: 2%; 
+    }
+    .d-block{
+        height: 30vh;
+    }
+    .gallerylogo{
+        width: 15%;
+    }
+    .galleryheading{
+        font-size: 27px;
+    }
+    .gallerysubheading{
+        font-size: 18px;
+    }
+    .aboutclara{
+        font-size: 22px;
+    }
+    .aboutsubheadings{
+        font-size: 20px;
+    }
+    .aboutpara{
+        font-size: 15px;
+    }
+    .abouthr , .aboutsubhr{
+        width: 30%;
+    }
+    
+
+  
+}
+@media(max-width:280px){
+    .logo{
+        width: 30%;
+    }
+ .cosmeticheading{
+     font-size: 20px;
+ }
+}
+
